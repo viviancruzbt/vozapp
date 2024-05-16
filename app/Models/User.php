@@ -20,6 +20,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'custom_event',
+        'evento_2',
+        'evento_3',
+        'googleid', // Adicione esta linha
     ];
 
     /**
